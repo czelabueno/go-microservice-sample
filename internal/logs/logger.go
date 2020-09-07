@@ -8,7 +8,7 @@ import (
 
 var sugar *zap.SugaredLogger
 
-// InitLogger function to initialize zap sugar
+// InitLogger function to initialize zap sugar v.1.0.1
 func InitLogger() error {
 	l, err := zap.NewDevelopment()
 
