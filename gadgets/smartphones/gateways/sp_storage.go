@@ -1,9 +1,9 @@
 package gateways
 
 import (
-	"../../../internal/database"
-	"../../../internal/logs"
-	"../models"
+	"github.com/czelabueno/go-microservice-sample/gadgets/smartphones/models"
+	"github.com/czelabueno/go-microservice-sample/internal/database"
+	"github.com/czelabueno/go-microservice-sample/internal/logs"
 )
 
 type SmartphoneStorageGateway interface {

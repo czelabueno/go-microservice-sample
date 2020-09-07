@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 
-	"go-restapi-mysql/internal/logs"
+	"github.com/czelabueno/go-microservice-sample/internal/logs"
 )
 
 // MySQLClient model struct to instance
